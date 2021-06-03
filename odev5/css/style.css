@@ -1,0 +1,44 @@
+
+
+
+    .menu{
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #27ae60;
+        text-align: center;
+    }
+
+    .menu li {
+        float: none;
+        display:inline-block; 
+    }
+
+    .menu li a {
+        display: block;
+        color:black;
+        text-decoration:none;
+        text-align: center;
+        padding:12px 16px;
+        }
+
+    .menu li:hover {
+        background-color: #f39c12;
+    }
+
+    .menu li a:hover{
+        color: #fafafa; 
+        }
+
+    .active {
+        background-color: #f39c12;
+    }
+
+    .inside-menu {
+        list-style-position: inside;
+    }
+
+    #logo {
+        background-color: #27ae60; 
+        font-family: 'Pattaya', sans-serif;
+    }
+    
